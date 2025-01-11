@@ -1,0 +1,24 @@
+.search{
+    height: 30px;
+    width: 200px;
+    border-radius: 5rem;
+    margin-top: 5px;
+}
+
+.search-section{
+    height:auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+   
+}
+.search-button{
+    margin-left: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 15rem;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+
+}

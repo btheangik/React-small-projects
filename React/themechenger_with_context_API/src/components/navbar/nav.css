@@ -1,0 +1,24 @@
+.navbar.light{
+ 
+  border-bottom: solid white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+ margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.navbar.dark{
+ 
+  border-bottom: solid white;
+  box-shadow: 3px 3px 6px black; 
+  margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: black;
+ color: white;
+}
+
+
+

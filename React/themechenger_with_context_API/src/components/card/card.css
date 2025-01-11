@@ -1,0 +1,86 @@
+.maincard.light {
+  border: solid white;
+  height: 350px;
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 600px;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.maincard.dark {
+  border: solid white;
+  height: 350px;
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 600px;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px black;
+  background-color: black;
+  color: white;
+}
+
+.imagecontainer {
+  border: solid white;
+  height: 180px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.textcontainer {
+  height: 30px;
+  width: 485px;
+  border-radius: 1rem;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: auto;
+  font-style: italic;
+  font-weight: bold;
+}
+.img {
+  height: auto;
+  width: auto;
+}
+
+.buybutton {
+  background-color: darkblue;
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 5rem;
+}
+
+.buybutton:hover {
+  transform: scale(1.1);
+}
+
+.price {
+  font-size: medium;
+}
+
+.themechangebtn.light {
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 5rem;
+}
+
+.themechangebtn.dark {
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 5rem;
+  background-color: white;
+  color: black;
+}

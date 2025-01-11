@@ -1,0 +1,40 @@
+.postlist {
+  height: auto;
+  width: auto;
+  background-color: lightgray;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.mainlist {
+  height: auto;
+  width: auto;
+  display: flex;
+
+  justify-content: center;
+}
+
+.btnsec {
+  margin-top: 5px;
+}
+.updatepost {
+  background-color: darkblue;
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 5rem;
+}
+.updatepost:hover {
+  background-color: green;
+}
+.deletepost {
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 5rem;
+  margin-left: 2px;
+}

@@ -1,0 +1,67 @@
+.main {
+  color: white;
+}
+
+.child-div {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+.sibling-div-1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 1rem;
+  border: grey solid;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.sibling-div-2 {
+  height: auto;
+  width: auto;
+  color: white;
+  display: flex;
+  margin-left: 300px;
+}
+
+.for-ingreadients {
+  color: white;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.for-instruction {
+  color: white;
+  height: auto;
+  width: 500px;
+  display: inline-block;
+  margin-left: 150px;
+}
+.for-instruction p {
+  white-space: pre-wrap; /* Ensures that line breaks in the text are preserved */
+  word-wrap: break-word; /* Breaks long words if they don't fit */
+  margin: 10px 0; /* Adds spacing around the instruction text */
+}
+
+.inglist {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  display: block; /* Or block if you want them stacked */
+  margin-right: 10px; /* Optional: Add spacing between items */
+}

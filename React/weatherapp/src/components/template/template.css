@@ -1,0 +1,29 @@
+.main-template.morning{
+    height: 500px;
+    width: 500px;
+     border-radius: 5rem;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-image: url('../images/morning.jpg');
+   background-size: cover;
+ 
+
+}
+
+.main-template.night{
+    height: 500px;
+    width: 500px;
+     border-radius: 5rem;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/night.jpg');
+   background-size: cover;
+   color: white;
+ 
+ 
+
+}

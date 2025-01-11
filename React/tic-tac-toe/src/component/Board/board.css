@@ -1,0 +1,18 @@
+.sub-div{
+    height: auto;
+    width: auto;
+     display: grid;
+    grid-template-columns: repeat(3,1fr); /* 3 items per row */
+    
+}
+
+.main-div{
+    height: auto;
+    width: auto;
+  
+    color: white;
+}
+
+.p-div{
+    margin-top: 50px;
+}
