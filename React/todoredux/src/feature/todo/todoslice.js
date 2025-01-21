@@ -18,6 +18,7 @@ const todoslice = createSlice({
       const todo = {
         id: nanoid(),
         text: action.payload,
+        completed: false
       };
       state.todos.push(todo);
     },
@@ -34,9 +35,12 @@ const todoslice = createSlice({
     completetodo: (state,action)=> {
       const id= action.payload
       state.todos= state.todos.map((todo)=>todo.id==id?{...todo, completed:!todo.completed}: todo)
-    }
+    },
+    setTodos: (state, action) => {
+      state.todos = action.payload;  // Set initial todos from localStorage
+    },
   },
 });
 
-export const { addtodo, removetodo, updatetodo, completetodo } = todoslice.actions;
+export const { addtodo, removetodo, updatetodo, completetodo,setTodos } = todoslice.actions;
 export default todoslice.reducer
